@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta keyword='author' name="Adedunmola Adeiye" />
+    <title>My To-do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav >
+      <div class="nav-center">
+        <h3>To Do List</h3>
+      </div>
+    </nav>
+
+    <section class="section-center">
+      <button type="button" class="add-btn"><i class="fa fa-plus" aria-hidden="true"></i> Add</button>
+      <div class="welcome-info">
+        <p class="note-text">
+          Oopsie!... Your list is empty... Click the button above to add an item.
+        </p>
+      </div>
+      <p class="alert"></p>
+      <form class="note-form">
+        <div class="form-control">
+          <input type="text" id="note" rows="10" cols="30" placeholder=" Your Item..."/>
+          <button type="submit" class="submit-btn">submit</button>
+        </div>
+      </form>
+      <div class="notes-container">
+        <div class="notes-list"> 
+          </div>
+          <button class="clear-btn">clear items</button>
+        </div>
+
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
